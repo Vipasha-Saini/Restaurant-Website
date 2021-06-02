@@ -1,0 +1,16 @@
+p{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin: 175px 0px;
+    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+
+
+}
+body{
+    background-color: rgba(236, 199, 167, 0.562);
+
+}

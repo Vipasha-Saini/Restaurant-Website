@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="stylesheet" href="../static/phone.css" media="screen and (max-width: 1027px)">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../static/logo.png" alt="">
+        </div>
+        <ul>
+            <li class="items"><a href="#home">Home</a></li>
+            <li class="items"><a href="#services-container"> Our Services</a></li>
+            <li class="items"><a href="#client-section">Our Clients</a></li>
+            <li class="items"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to My Restaurant</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nihil.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, magnam.</p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary-center"> Our Servcies</h1>
+        <div id="services">
+            <div class="box">
+                <img src="../static/pic1.jpg" alt="">
+                <h2 class="h-secondary-center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius itaque soluta omnis
+                    placeat voluptatibus veritatis aliquid consectetur officia, sint libero at voluptatum iste assumenda
+                    quae eveniet iusto deserunt maiores exercitationem.</p>
+            </div>
+            <div class="box">
+                <img src="../static/pic2.jpg" alt="">
+                <h2 class="h-secondary-center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius itaque soluta omnis
+                    placeat voluptatibus veritatis aliquid consectetur officia, sint libero at voluptatum iste assumenda
+                    quae eveniet iusto deserunt maiores exercitationem.</p>
+            </div>
+            <div class="box delivery">
+                <img src="../static/pic4.webp" alt="">
+                <h2 class="h-secondary-center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius itaque soluta omnis
+                    placeat voluptatibus veritatis aliquid consectetur officia, sint libero at voluptatum iste assumenda
+                    quae eveniet iusto deserunt maiores exercitationem.</p>
+            </div>
+        </div>
+    </section>
+    <div id="client-section">
+        <h1 class="h-primary-center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="../static/logo1.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="../static/logo2.jpg" alt="">
+            </div>
+            <div class="client-item">
+                <img src="../static/logo3.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="../static/logo4.png" alt="">
+            </div>
+        </div>
+    </div>
+    <section id="contact">
+        <h1 class="h-primary-center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="/", method="POST">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="text" name="email" id="email" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone number">Phone Number: </label>
+                    <input type="text" name="phone number" id="phone number" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button class="btn1">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
