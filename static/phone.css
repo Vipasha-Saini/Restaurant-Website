@@ -3,9 +3,44 @@
 #navbar{
     flex-direction: column;
 }
-#navbar li a{
+#navbar ul li a{
     font-size: 1.0rem;
-    padding: 0px 7px;
+    padding: 6px 0px;
+}
+/* #navbar ul{
+    font-size: 2rem;
+} */
+
+#navbar ul .n1 a:hover{
+    display: block;
+    background-color: white;
+}
+
+#navbar ul .n1 a{
+    margin: 0px 9px;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+
+}
+#navbar ul .n2 a{
+    margin: 0px 9px;
+    font-size: 1.7rem;
+    text-align: center;
+}
+#navbar ul .n3 a{ 
+    margin: 0px 9px;
+    font-size: 1.7rem;
+    text-align: center;
+}
+#navbar ul .n4 a{
+    margin: 0px 9px;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-right: 5px;
 }
 /* home section */
 
@@ -14,7 +49,7 @@
     padding: 10px 10px;
 }
 #home::before{
-    height: 522px;
+    height: 560px;
 }
 
 /* Our services section */
@@ -32,7 +67,7 @@
     flex-wrap: wrap;
 }
 #clients img{
-    width: 80px;
+    width: 90px;
     padding: 6px 34px;
     height: auto;
 }

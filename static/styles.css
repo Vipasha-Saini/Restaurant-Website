@@ -181,6 +181,9 @@ margin: 18px 7px;
 .client-item{
     padding: 34px 34px;
 }
+.client2 img{
+    width: 300px;
+}
 #client-section::before{
     content:"";
     background: url('pic3.jpg');
