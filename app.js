@@ -18,7 +18,7 @@ mongoose.connect(DB, {useNewUrlParser: true,useUnifiedTopology: true});
 const contactSchema = new mongoose.Schema({
     name: String,
     email: String,
-    phone: String,
+    phone_number: String,
     message: String
 });
 
